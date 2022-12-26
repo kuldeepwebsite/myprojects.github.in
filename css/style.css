@@ -1,0 +1,159 @@
+/* custome css */
+/* header top css code */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --iconeClr : #50d8af
+}
+.section_title{
+    font-size: 32px;
+    color: #0c2e8a;
+    font-weight: 700;
+}
+hr{
+    width: 63px;
+    color: #50d8af;
+    border: 2px solid;
+}
+#header-top{
+    border-bottom: 1px solid #eee;
+}
+.icon-color {
+    color: var(--iconeClr);
+}
+.social-icons i{
+    padding: 3px;
+    border-right: 1px solid #eee;
+    line-height: 6px;
+}
+.divider{
+    
+}
+/* navbar */
+.site_title{
+    
+}
+.title{
+    color: #0c2e8a;
+    font-size: 50px !important;
+    font-weight: 600;
+}
+.title span{
+    color: #50d8af;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a{
+    color: #444;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+nav ul li a:hover{
+    color: #50d8af;
+}
+.navbar-toggler{
+    background-color: #0c2e8a;
+}
+.myicon{
+    color: #50d8af;
+}
+/* banner-section */
+#banner-section{
+    background: url("../img/hero-carousel/2.jpg");
+}
+#banner-section h1{
+    color: #0c2e8a;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 80px 273px;
+    text-align: center;
+
+}
+#banner-section h1 span{
+    text-decoration: underline;
+    color: #50d8af;
+}
+.banner-buttons a{
+    color: #fff;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner-start-btn{
+    background-color: #0c2e8a;
+    border: 2px solid #0c2e8a;
+    
+}
+
+#banner-project-btn{
+    background-color: #50d8af;
+    margin-left: 10px;
+    border: 2px solid #50d8af;
+}
+/* aboutus-section */
+#about-us{
+
+}
+#about-us h2{
+    color: #0c2e8a;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+#about-us h3{
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    padding: 9px 0;
+}
+#about-us ul li {
+    list-style-type: none;
+    padding-top: 16px;
+}
+#about-us ul li i{
+    color: #50d8af;
+    font-size: 20px;
+    padding-right: 5px;
+}
+#services { }
+#services h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+.service-box{
+    box-shadow: 10px 10px 15px rgb(73 78 92 / 10%);
+    background: #fff;
+    margin: 10px;
+}
+.service-box i {
+    color: #50d8af;
+    font-size: 64px;
+}
+.service-data{
+    padding: 25px;
+}
+@media (max-width: 500px){    
+    .top-right{
+        margin-left: 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+    #banner-section h1{
+        padding: 0;
+    }
+    .banner-buttons{
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,305 @@
+/* custome css */
+/* header top css code */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --iconeClr : #50d8af
+}
+.section_title{
+    font-size: 32px;
+    color: #0c2e8a;
+    font-weight: 700;
+}
+hr{
+    width: 63px;
+    color: #50d8af;
+    border: 2px solid;
+}
+#header-top{
+    border-bottom: 1px solid #eee;
+}
+.icon-color {
+    color: var(--iconeClr);
+}
+.social-icons i{
+    padding: 3px;
+    border-right: 1px solid #eee;
+    line-height: 6px;
+}
+
+/* navbar */
+
+.title{
+    color: #0c2e8a;
+    font-size: 50px !important;
+    font-weight: 600;
+    margin-left: -15px;
+}
+.title span{
+    color: #50d8af;
+}
+.navbar-nav{
+    margin-right: -32px;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a{
+    color: #444;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    
+}
+nav ul li a:hover{
+    color: #50d8af;
+}
+.navbar-toggler{
+    background-color: #0c2e8a;
+}
+.myicon{
+    color: #50d8af;
+}
+/* banner-section */
+#banner-section{
+    background: url("img/hero-carousel/2.jpg");
+}
+#banner-section h1{
+    color: #0c2e8a;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 80px 273px;
+    text-align: center;
+
+}
+#banner-section h1 span{
+    text-decoration: underline;
+    color: #50d8af;
+}
+.banner-buttons a{
+    color: #fff;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner-start-btn{
+    background-color: #0c2e8a;
+    border: 2px solid #0c2e8a;
+    
+}
+
+#banner-project-btn{
+    background-color: #50d8af;
+    margin-left: 10px;
+    border: 2px solid #50d8af;
+}
+/* aboutus-section */
+
+#about-us h2{
+    color: #0c2e8a;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+#about-us h3{
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    padding: 9px 0;
+}
+#about-us ul li {
+    list-style-type: none;
+    padding-top: 16px;
+}
+#about-us ul li i{
+    color: #50d8af;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+#services h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+
+.service-box{
+    box-shadow: 10px 10px 15px rgb(73 78 92 / 10%);
+    background: #fff;
+    margin: 10px;
+}
+.service-box i {
+    color: #50d8af;
+    font-size: 64px;
+}
+.service-data{
+    padding: 25px;
+}
+.portfolio-box{ 
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-box img {
+    position: relative;
+    bottom: 0;
+    transition: all 0.1s linear;
+}
+.portfolio-box:hover img{
+    bottom: 15px;
+}
+.portfolio-inner-box{
+    background: #50d8af;
+    height: 100px;
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+    transition: all 0.2s linear;
+    color: white;
+}
+.portfolio-box:hover .portfolio-inner-box{
+    bottom: 0px;
+}
+.testimonial-box{
+    box-shadow: 10px 10px 15px black;
+    margin-top: 20px;
+}
+.testimonial-box p{
+    padding: 20px;
+    text-align: justify;
+}
+.testimonial-img{
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid #fff;    
+}
+.testimonial-box h3{
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+}
+.testimonial-box h4{
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+}
+#call-to-action{
+    background: #081e5b;
+    background-size: cover;
+    padding: 40px 0;
+    margin-top: 45px;
+}
+#call-to-action h3{
+    color: #fff;
+}
+#call-to-action p{
+    color: #fff;
+}
+
+.row-data i{
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 23px;
+    color: #50d8af;
+}
+.row-data h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center;
+}
+.row-data h5{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center;
+}
+.form-data{
+    padding-top: 60px;
+}
+.text-center1{
+    background: #50d8af;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#call-to-action .cta-btn {
+    
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    display: inline-block;
+    
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 40px;
+    border: 3px solid #fff;
+    color: #fff;
+    
+} 
+.details{
+    background: #50d8af;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+} 
+.details h4{
+    text-align: center;
+    font-size: 20px;
+}
+.details h5{
+    text-align: center;
+    font-size: 15px;
+} 
+.social{
+    text-align: center;
+    font-size: 20px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+}
+#footer{
+    background: #f2f5f8;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+}
+
+
+@media (max-width: 500px){    
+    .top-right{
+        margin-left: 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+    #banner-section h1{
+        padding: 0;
+    }
+    .banner-buttons{
+        flex-direction: column;
+        text-align: center;
+    }
+    .data{
+        flex-direction: column;
+    }
+}
